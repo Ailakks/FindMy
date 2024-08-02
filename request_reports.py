@@ -1,3 +1,7 @@
+import os
+os.environ['HTTP_PROXY'] = 'http://localhost:puerto'
+os.environ['HTTPS_PROXY'] = 'http://localhost:puerto'
+
 #!/usr/bin/env python3
 import os,glob,datetime,argparse
 import base64,json
